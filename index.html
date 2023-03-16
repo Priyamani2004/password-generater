@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/4d300accb8.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="whole">
+      <h3 id="heading">Password Generator</h3>
+      <p id="copied">Copied</p>
+      <div id="Generator">
+        <p class="password" id="password">Bb2@q6</p>
+        <i class="fa-regular fa-copy copied" onclick="copied()"></i>
+      </div>
+      <div id="selectdiv">
+        <h3 id="length">Character Length <span id="rangevalue" />6</span>
+        </h3>
+        <input type="range" id="ranges" class="sliding" min="6" max="20" value="8" oninput="rangevalues(this.value)" />
+        <br>
+        <ul class="hidebullets">
+          <li class="litags">
+            <input type="checkbox" id="firstcheck" class="checked" />
+            <span class="common">Include Uppercase Letters</span>
+          </li>
+          <li class="litags">
+            <input type="checkbox" id="secondcheck" class="checked" />
+            <span class="common">Include Lowercase Letters</span>
+          </li>
+          <li class="litags">
+            <input type="checkbox" id="thirdcheck" class="checked" />
+            <span class="common">Include Numbers</span>
+          </li>
+          <li class="litags">
+            <input type="checkbox" id="fourthcheck" class="checked" />
+            <span class="common">Include Symbols</span>
+          </li>
+        </ul>
+        <div id="strength">
+          <div id="strength1">
+            <p class="para">STRENGTH</p>
+          </div>
+          <div id="strength2">
+            <div class="para2">
+              <p id="para4"></p>
+            </div>
+            <div class="para3">
+              <div class="boxes" id="one"></div>
+              <div class="boxes" id="two"></div>
+              <div class="boxes" id="three"></div>
+              <div class="boxes" id="four"></div>
+            </div>
+          </div>
+        </div>
+        <div id="lastdiv" onclick="first()">
+          <h5 class=lastpara>GENERATE</h5>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  </body>
+</html>

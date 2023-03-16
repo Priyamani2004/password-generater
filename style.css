@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#whole {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+#heading {
+  margin-top: 5%;
+  text-align: center;
+  color: #817d92;
+  font-size: 37px;
+}
+#Generator {
+  height: 8%;
+  width: 38%;
+  margin: auto;
+  background: #24232c;
+}
+.copied {
+  color: #a4ffaf;
+  font-size: 30px;
+  margin-left: 88%;
+  margin-top: 4%;
+}
+#selectdiv {
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  background: #24232c;
+  /* align-items: center; */
+  display: block;
+}
+
+#length {
+  color: white;
+  font-size: 30px;
+  margin-left: 6%;
+}
+.password {
+  position: absolute;
+  display: block;
+  color: #817d92;
+  font-size: 35px;
+  margin-left: 1%;
+  letter-spacing: 2px;
+  margin-top: 1%;
+}
+#rangevalue {
+  margin-left: 51%;
+  color: #a4ffaf;
+  font-size: 41px;
+}
+.sliding {
+  width: 32%;
+  -webkit-appearance: none;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 2.5%;
+  background-color: #111;
+}
+
+.sliding::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  box-shadow: -407px 0 0 400px #a4ffaf;
+  border: 2px solid gray;
+}
+
+.litags {
+  margin-top: 5%;
+}
+.common {
+  font-size: 30px;
+  color: white;
+  margin-left: 8%;
+  font-family: "JetBrains Mono";
+}
+.checked {
+  margin-left: 3%;
+  width: 30px;
+  height: 30px;
+  accent-color: #a4ffaf;
+}
+.hidebullets {
+  list-style-type: none;
+}
+
+#strength {
+  width: 590px;
+  height: 100px;
+  margin-left: 7%;
+  margin-top: 7%;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+}
+#strength1 {
+  width: 50%;
+  height: 100%;
+  font-family: "JetBrains Mono";
+}
+#strength2 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  color: #817d92;
+  font-size: 30px;
+  margin-top: 11%;
+  margin-left: 9%;
+}
+.para2 {
+  width: 60%;
+  height: 100%;
+}
+.para3 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#para4 {
+  color: white;
+  font-size: 31px;
+  margin-top: 17%;
+  margin-left: -8%;
+  font-family: "JetBrains Mono";
+}
+.boxes {
+  border: 1px solid white;
+  width: 10%;
+  height: 50%;
+  margin-top: 15%;
+}
+#lastdiv {
+  width: 590px;
+  height: 100px;
+  margin-left: 7%;
+  margin-top: 3%;
+  background: #a4ffaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*    align-items: center; */
+}
+.lastpara {
+  font-family: "JetBrains Mono";
+  color: darkgray;
+  font-size: 28px;
+}
+#lastdiv:hover {
+  background: none;
+  border: 2px solid #a4ffaf;
+}
+#copied {
+  display: none;
+  color: white;
+  margin-left: 63%;
+  font-family: "JetBrains Mono";
+}
+
